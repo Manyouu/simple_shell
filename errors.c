@@ -52,8 +52,7 @@ return (1);
 int _putfd(char c, int fd)
 {
 static int i;
-stat;
-char buf[WRITE_BUF_SIZE];
+static char buf[WRITE_BUF_SIZE];
 
 if (c == BUF_FLUSH || i >= WRITE_BUF_SIZE)
 {
